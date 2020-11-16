@@ -1,4 +1,4 @@
-#INSTALL:
+# INSTALL:
 ========
 To run the script, first compile dedup_umi.pyx, type:
 
@@ -10,7 +10,7 @@ If you don't see it, it may be located in ./build and move it to the
 same location where 'count_umi.py' locates. 
 
 
-#RUN:
+# RUN:
 =======
 Show help message:
 
