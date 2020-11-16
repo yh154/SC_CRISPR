@@ -2,7 +2,9 @@
 
 To run the script, first compile dedup_umi.pyx, type:
 
-   $python setup.py build_ext --inplace
+.. code:: bash
+
+   $ python setup.py build_ext --inplace
 
 Which will produce a 'dedup_umi.xxx.so' file in your local directory. 
 
@@ -14,11 +16,14 @@ same location where 'count_umi.py' locates.
 
 Show help message:
 
-   $python count_umi.py -h
+.. code:: bash
+   $ python count_umi.py -h
 
 Test run:
 
-   $python count_umi.py \
+.. code:: bash
+   
+   $ python count_umi.py \
 		-s test_data/subset_trimmed_sgrna.fastq.gz \
 		-b test_data/subset_trimmed_umi.fastq.gz \
     		-w test_data/SaturnV_One_Two.csv \
