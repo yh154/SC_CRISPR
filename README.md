@@ -1,5 +1,5 @@
 # INSTALL:
-========
+
 To run the script, first compile dedup_umi.pyx, type:
 
    $python setup.py build_ext --inplace
@@ -11,7 +11,7 @@ same location where 'count_umi.py' locates.
 
 
 # RUN:
-=======
+
 Show help message:
 
    $python count_umi.py -h
