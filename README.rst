@@ -7,10 +7,10 @@ To run the script, first compile dedup_umi.pyx, type:
 
    $ python setup.py build_ext --inplace
 
-Which will produce a 'dedup_umi.xxx.so' file in your local directory.
+Which will produce a ``dedup_umi.xxx.so`` file in your local directory.
 
-If you don't see it, it may be located in ./build and move it to the
-same location where 'count_umi.py' locates.
+If you don't see it, it may be located in ``./build`` and move it to the
+same location where ``count_umi.py`` locates.
 
 
 Run:
